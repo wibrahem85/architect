@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>architecture templete</title>
+		<!-- normalize file to render Elements correctly-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!--animate css file for nice animation-->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- custom stylesheet -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!--html5shiv file -->
+		<!--[if lt IE 9]>
+			<!for IE to render HTML5 tags correctly>
+			<script src="js/html5shiv.min.js"></script>
+			<!for media query for IE>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="full-width">
+			<nav>
+					<div class="left"> <a href="#img"><span>br</span> Architects</a></div>
+					<div class="right">
+						<a href="#projects">projects</a>
+						<a href="#about-me">about</a>
+						<a href="#contact">contact</a>
+
+					</div>
+			</nav>
+			
+			<div class="container">
+				
+			<header>
+					<img id="img" src="images/architect.jpg" alt="architect pic" />
+					<p><span>BR</span> Architects</p>
+				</header>
+				<main>
+					
+					<div class="all-images wow zoomIn" data-wow-duration="3s" data-wow-offset="10" id="projects">
+						<p>Projects</p>
+						<hr />							
+						<div class="horz-row">
+							<div class="one-image">
+								<img src="images/house5.jpg" alt="house5" />
+								<span>summer house</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house2.jpg" alt="house2" />
+								<span>Brick House</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house3.jpg" alt="house3" />
+								<span>Renovated</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house4.jpg" alt="house4.jpg" />
+								<span> Barn House</span>
+							
+							</div>
+						
+						</div>
+					 
+						
+						<div class="horz-row">
+							<div class="one-image">
+								<img src="images/house2 (1).jpg" alt="house2" />
+								<span>summer house</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house5 (1).jpg" alt="house5" />
+								<span>Brick House</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house4 (1).jpg" alt="house4" />
+								<span>Renovated</span>
+							
+							</div>
+							<div class="one-image">
+								<img src="images/house3 (1).jpg" alt="house3" />
+								<span>Barn House</span>
+							
+							</div>
+						
+						
+						
+						</div>
+					
+					<div style="clear:left"></div>	
+					</div>
+					
+					<div class="people wow zoomIn" data-wow-duration="3s" data-wow-offset="3">
+						<div id="about-me" class="about">
+						<h5 >About</h5>
+						<hr />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						</div>
+						
+						<div class="one-person">
+							<img src="images/team2.jpg" alt="team2" />
+							<h2>John Doe</h2>
+							<h4>CEO &amp; Founder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+							</p>
+							<a href="#">contact</a>
+						</div>
+						
+						<div class="one-person">
+							<img src="images/team1.jpg" alt="team1" />
+							<h2>John Doe</h2>
+							<h4>CEO &amp; Founder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+							</p>
+							<a href="#">contact</a>
+						</div>
+						
+						<div class="one-person">
+							<img src="images/team3.jpg" alt="team3" />
+							<h2>John Doe</h2>
+							<h4>CEO &amp; Founder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+							</p>
+							<a href="#">contact</a>
+						</div>
+						
+						<div class="one-person last">
+							<img src="images/team4.jpg" alt="team4"  />
+							<h2>John Doe</h2>
+							<h4>CEO &amp; Founder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+							</p>
+							<a href="#">contact</a>
+						</div>
+					<div style="clear:left"></div>
+					</div>
+					
+					<div class="contact" id="contact">
+						<form action="#" method="post" target="_blank">
+							<h2>Contact</h2>
+							<hr />
+							<p>Lets get in touch and talk about your next project.</p>
+							<input type="text" placeholder="Name" required />
+							<input type="text"  placeholder="Email" required />
+							<input type="text"  placeholder="Subject"required />
+							<input type="text"  placeholder="Comment"required />
+							<button>send message</button>
+						
+						</form>
+					
+					
+					</div>
+					
+					<div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879675.1299149215!2d31.70343137758244!3d30.542777622996056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd401e46d55%3A0xc77bf9230555c6a!2z2KfZhNit2LPYp9ioINin2YTYudmE2YXZig!5e0!3m2!1sar!2seg!4v1550334472974" 
+						width="100%" height="550px" frameborder="0" style="border:0" allowfullscreen>
+						</iframe>
+					
+					</div>
+				
+				</main>
+				
+			</div>
+			<footer>
+				<p>Powered by <a href="#">w3.css</a></p>
+			</footer>
+		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		 <script src="js/wow.min.js"></script>
+              <script>
+                     wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+						$(document).ready(function(){  
+						$("html").niceScroll();
+						})
+		 	
+              </script>
+			  
+	</body>
+
+</html>
